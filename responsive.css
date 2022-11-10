@@ -1,0 +1,62 @@
+/* PC */
+
+@media (min-width: 1024px) {
+    #header .menu-icon {
+        display: none;
+    }
+}
+
+
+/* Tablet & mobile */
+
+@media (max-width: 1023px) {}
+
+
+/* Tablet */
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    #header .menu-icon {
+        display: none;
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: black;
+    }
+    #nav .subnav li a {
+        color: white;
+        padding: 0 40px;
+    }
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .s-col-full {
+        width: 100%;
+        margin-top: 16px;
+    }
+    .col {
+        padding-left: 0;
+        width: 100%;
+    }
+    input[type=email] {
+        margin-top: 10px;
+    }
+}
